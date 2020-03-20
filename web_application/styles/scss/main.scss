@@ -1,0 +1,37 @@
+@-webkit-keyframes colorAnim { from { background-color: #f7f7f7; } to { background-color: none; }  }
+@-moz-keyframes    colorAnim { from { background-color: #f7f7f7; } to { background-color: none; }  }
+@-o-keyframes      colorAnim { from { background-color: #f7f7f7; } to { background-color: none; }  }
+@keyframes         colorAnim { from { background-color: #f7f7f7; } to { background-color: none; }  }
+
+@mixin colorAnimation($s)
+{
+    -webkit-animation: $s linear 0s infinite alternate colorAnim;
+    -moz-animation:    $s linear 0s infinite alternate colorAnim;
+    -o-animation:      $s linear 0s infinite alternate colorAnim;
+     animation:        $s linear 0s infinite alternate colorAnim;
+}
+
+.index_page
+{
+    @include colorAnimation(1s);
+
+    #BasicHeader-Label
+    {
+        font-size: 16pt;
+    }
+}
+
+#search_user_page_add_button
+{
+    position: relative;
+    margin-top: 5px;
+    margin-right: 5px;
+    float: right;
+    border: 2px solid black;
+    font-size: 12pt;
+}
+
+#search_user_page_add_button:active
+{
+    border: 1px solid rgb(24, 24, 24);
+}

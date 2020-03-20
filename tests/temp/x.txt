@@ -1,0 +1,3 @@
+2012-02-13 14:39:22 1RwtJa-000AFB-07 => :blackhole: <tpxmuwr@somehost.ru> R=blackhole_router
+2012-02-13 15:39:22 1RwtJa-000AF1-07 => :blackhole: <tpxmuwr@somehost.ru> R=blackhole_router
+2012-02-13 14:39:22 1RwtJa-0009RI-5L <= tpxmuwr@somehost.ru H=mail.somehost.com [84.154.134.45] P=esmtp S=1260 id=120213143629.COM_FM_END.125492@whois.somehost.ru
